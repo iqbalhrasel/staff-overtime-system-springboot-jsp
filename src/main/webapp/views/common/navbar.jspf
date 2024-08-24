@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="/">Overtime System</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	      <ul class="navbar-nav">
+	        
+	        <li class="btn-group">
+			  <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			    OT Entry
+			  </button>
+			  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-light">
+			    <li><a class="dropdown-item" href="ot-entry-gen">General OT Entry</a></li>
+			    <li><a class="dropdown-item" href="ot-entry-r">Ramadan OT Entry</a></li>
+			    <li><a class="dropdown-item" href="ot-entry-n">Non Office-day OT Entry</a></li>
+			  </ul>
+			  
+			</li>
+			
+			<li class="btn-group">
+			  <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			    OT Report
+			  </button>
+			  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-light">
+			    <li><a class="dropdown-item" href="ot-log">OT Log</a></li>
+			    <li><a class="dropdown-item" href="ot-summary">OT Summary</a></li>
+			  </ul>
+			  
+			</li>
+			
+			
+	        
+	      </ul>
+	      
+	    </div>
+	    
+	  </div>
+	  <div class="btn-group">
+	  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+	    ${username}
+	  </button>
+	  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+	    
+	    <li><a class="dropdown-item" href="logout">Logout</a></li>
+	    
+	  </ul>
+	  
+	</div>
+</nav>

@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="/">Overtime System</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	      <ul class="navbar-nav">
+			
+			<li class="btn-group">
+			  <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			    Staff info
+			  </button>
+			  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-light">
+			    <li><a class="dropdown-item" href="staffs">View staff info</a></li>
+			    <li><a class="dropdown-item" href="create-designation">Create new / update designation</a></li>
+			    <li><a class="dropdown-item" href="create-staff-id">Create new staff ID</a></li>
+			  </ul>
+			  
+			</li>
+			
+			<li class="btn-group">
+			  <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			    Overtime info
+			  </button>
+			  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-light">
+			    <li><a class="dropdown-item" href="create-ot">Create new overtime entry</a></li>
+			    <li><a class="dropdown-item" href="ot-log">Ot Log</a></li>
+			    <li><a class="dropdown-item" href="ot-summary">Ot Summary</a></li>
+			    <li><a class="dropdown-item" href="update-time">Update overtime start time</a></li>
+			  </ul>
+			  
+			</li>
+	        
+	      </ul>
+	      
+	    </div>
+	    
+	  </div>
+	  <div class="btn-group">
+	  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+	    ${username}
+	  </button>
+	  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+	    
+	    <li><a class="dropdown-item" href="logout">Logout</a></li>
+	    
+	  </ul>
+	  
+	</div>
+</nav>
